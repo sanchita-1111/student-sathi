@@ -1,0 +1,8 @@
+1. Create a GitHub repository.
+2. Upload streamlit_app.py, student_support_demo_data.csv, requirements.txt and the other project files.
+3. Open Streamlit Community Cloud and create an app.
+4. Select the GitHub repository, branch and streamlit_app.py as the main file.
+5. Deploy.
+6. The platform will provide a public streamlit.app URL.
+
+The Power BI-ready workbook can be imported into Power BI Desktop. A native PBIX file cannot be generated here because PBIX is a proprietary Power BI Desktop format.

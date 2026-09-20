@@ -1,0 +1,26 @@
+STUDENT SATHI - START HERE
+
+WINDOWS / VS CODE
+1. Extract the ZIP folder.
+2. Open the extracted Student_Sathi_Final folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Run:
+   python -m venv .venv
+5. Run:
+   .venv\Scripts\activate
+6. Run:
+   python -m pip install -r requirements.txt
+7. Run:
+   python -m streamlit run streamlit_app.py
+8. Your browser should open at http://localhost:8501
+
+EASIEST OPTION:
+Double-click run_student_sathi.bat. It creates the environment, installs the requirements, and starts the app.
+
+If the browser does not open, manually visit:
+http://localhost:8501
+
+IMPORTANT:
+- Keep streamlit_app.py and student_support_demo_data.csv in the same folder.
+- This is a prototype. The bundled model data are synthetic demonstration data.
+- Do not use the prototype for real student decisions until validated with anonymised institutional data and appropriate privacy/fairness controls.
